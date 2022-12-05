@@ -12,10 +12,11 @@ $color-blue: #19BCE4
   margin: 0 auto
 
 .main-section
-  padding-top: 46px
+  padding-top: 56px
   &__nav-container
     display: flex
     justify-content: space-between
+    margin-bottom: 56px
   &__header
     display: flex
     text-align: center
@@ -23,6 +24,25 @@ $color-blue: #19BCE4
       margin-left: 6px
       align-self: center
       font-size: 18px
+  &__container-back
+    background-image: url("../img/mainBack.jpg")
+    background-repeat: no repeat
+    background-position: center
+    background-size: cover
+  &__content-container
+    height: 785px
+    background: rgba(0, 0, 0, 0.56)
+    padding-top: 185px
+    text-align: center
+  &__title
+    color: white
+    font-weight: 700
+    font-size: 64px
+    margin-bottom: 24px
+  &__text
+    color: white
+    font-size: 20px
+    margin-bottom: 97px
 
   .nav-menu
     width: 44%
@@ -41,3 +61,42 @@ $color-blue: #19BCE4
     border-radius: 6px
     padding: 0.6em 1.5em
     cursor: pointer
+
+  .input-box
+    height: 118px
+    background-color: #FFFFFF
+    display: flex
+    justify-content: space-around
+    align-items: center
+    &__button
+      border-radius: 0px
+      width: 259px
+      height: 70px
+
+  .select
+    width: 259px
+    height: 70px
+    border: 0.5px solid rgba(25, 188, 228, 0.3)
+    padding: 10px 30px
+    text-align: left
+    &__placeholder
+      font-size: 14px
+      color: #555555
+      margin-bottom: 8px
+    &__expand-line1
+      transform: rotate(-45deg)
+    &__expand-line2
+      transform: rotate(45deg)
+    &__text
+      font-weight: 500
+      font-size: 20px
+
+  .expand-line
+    display: inline-block
+    height: 8px
+    width: 2px
+    background-color: $color-blue
+    border-radius: 5px
+    margin-left: 6px
+    &:last-child
+      margin-left: -1px
