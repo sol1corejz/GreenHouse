@@ -6,6 +6,9 @@ $color-blue: #19BCE4
 *
   box-sizing: border-box
 
+img
+  display: inline-block
+
 .container
   position: relative
   max-width: 1170px
@@ -13,6 +16,7 @@ $color-blue: #19BCE4
 
 .main-section
   padding-top: 56px
+  margin-bottom: 120px
   &__nav-container
     display: flex
     justify-content: space-between
@@ -43,60 +47,118 @@ $color-blue: #19BCE4
     color: white
     font-size: 20px
     margin-bottom: 97px
+    line-height: 30px
 
-  .nav-menu
-    width: 44%
-    align-self: center
-    &__list
-      display: flex
-      justify-content: space-around
-      &-item
-        font-size: 18px
-
-  .main-btn
-    font-size: 16px
-    color: white
-    background-color: $color-blue
-    border: none
-    border-radius: 6px
-    padding: 0.6em 1.5em
-    cursor: pointer
-
-  .input-box
-    height: 118px
-    background-color: #FFFFFF
+.nav-menu
+  width: 44%
+  align-self: center
+  &__list
     display: flex
     justify-content: space-around
-    align-items: center
-    &__button
-      border-radius: 0px
-      width: 259px
-      height: 70px
+    &-item
+      font-size: 18px
 
-  .select
+.main-btn
+  font-size: 16px
+  color: white
+  background-color: $color-blue
+  border: none
+  border-radius: 6px
+  padding: 0.6em 1.5em
+  cursor: pointer
+
+.input-box
+  height: 118px
+  background-color: #FFFFFF
+  display: flex
+  justify-content: space-around
+  align-items: center
+  &__button
+    border-radius: 0px
     width: 259px
     height: 70px
-    border: 0.5px solid rgba(25, 188, 228, 0.3)
-    padding: 10px 30px
-    text-align: left
-    &__placeholder
-      font-size: 14px
-      color: #555555
-      margin-bottom: 8px
-    &__expand-line1
-      transform: rotate(-45deg)
-    &__expand-line2
-      transform: rotate(45deg)
-    &__text
-      font-weight: 500
-      font-size: 20px
 
-  .expand-line
-    display: inline-block
-    height: 8px
-    width: 2px
-    background-color: $color-blue
-    border-radius: 5px
-    margin-left: 6px
-    &:last-child
-      margin-left: -1px
+.select
+  width: 259px
+  height: 70px
+  border: 0.5px solid rgba(25, 188, 228, 0.3)
+  padding: 10px 30px
+  text-align: left
+  &__placeholder
+    font-size: 14px
+    color: #555555
+    margin-bottom: 8px
+  &__expand-line1
+    transform: rotate(-45deg)
+  &__expand-line2
+    transform: rotate(45deg)
+  &__text
+    font-weight: 500
+    font-size: 20px
+
+.expand-line
+  display: inline-block
+  height: 8px
+  width: 2px
+  background-color: $color-blue
+  border-radius: 5px
+  margin-left: 6px
+  &:last-child
+    margin-left: -1px
+
+.second-section
+  &__container
+    display: flex
+    justify-content: space-between
+    margin-bottom: 160px
+  &__left-block
+    width: 567px
+    position: relative
+
+.left-block
+  position: relative
+  &__image_2
+    position: absolute
+    left: 322px
+    top: 446px
+
+.right-block
+  width: 560px
+  &__header
+    font-size: 20px
+    color: #02012B
+    margin-bottom: 10px
+  &__title
+    font-weight: 700
+    font-size: 48px
+    line-height: 61px
+    margin-bottom: 24px
+  &__text
+    font-size: 20px
+    line-height: 27px
+    margin-bottom: 40px
+
+  &__cards-block
+    display: flex
+    justify-content: space-around
+
+.desc-card
+  &__icon
+    width: 56px
+    height: 56px
+    margin-bottom: 24px
+  &__title
+    font-weight: 500
+    font-size: 24px
+    line-height: 28px
+    margin-bottom: 16px
+  &__text
+    font-size: 14px
+    line-height: 17px
+    color: #555555
+    margin-bottom: 46px
+  &__button
+    width: 171px
+    height: 56px
+    font-size: 18px
+    line-height: 24px
