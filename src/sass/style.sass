@@ -6,9 +6,6 @@ $color-blue: #19BCE4
 *
   box-sizing: border-box
 
-img
-  display: inline-block
-
 .container
   position: relative
   max-width: 1170px
@@ -297,6 +294,7 @@ img
   background: #FFF8F7
   padding-top: 96px
   padding-bottom: 128px
+  margin-bottom: 294px
   &__title
     font-weight: 700
     font-size: 48px
@@ -341,6 +339,7 @@ img
   padding-bottom: 52px
   background: #19BCE4
   border-radius: 24px
+  width: 100%
   &__title
     text-align: center
     font-weight: 700
@@ -364,9 +363,45 @@ img
     padding-top: 15px
 
 .footer-section
-  margin-top: 294px
+  padding-top: 197px
+  padding-bottom: 83px
   position: relative
   background: #F8FDFE
   &__subscription-block
     position: absolute
-    top: -174px
+    bottom: 337px
+  &__list
+
+.list
+  display: flex
+  justify-content: space-between
+  &__title
+    font-weight: 500
+    font-size: 24px
+    line-height: 28px
+    margin-bottom: 26px
+  &__text
+    font-size: 18px
+    line-height: 27px
+    margin-bottom: 6px
+    color: #555555
+    cursor: pointer
+  &__icons
+    margin-top: 37px
+
+.icon-text
+  display: flex
+  align-items: center
+  margin-bottom: 6px
+  &__icon
+    margin-right: 6px
+  &__text
+    font-size: 18px
+    line-height: 27px
+    color: #555555
+  &__title
+    font-size: 18px
+    line-height: 21px
+    color: #02012B
+  &_mb
+    margin-bottom: 14px
