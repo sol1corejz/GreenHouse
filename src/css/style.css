@@ -1045,15 +1045,233 @@ table {
 @media (max-width: 991px) {
   /* line 553, ../Projects/Practice/Verstka/GreenHouse/src/sass/style.sass */
   .container {
-    width: 720px; } }
+    width: 720px; }
+  /* line 556, ../Projects/Practice/Verstka/GreenHouse/src/sass/style.sass */
+  .main-section {
+    padding-top: 14px;
+    padding-bottom: 14px; }
+    /* line 559, ../Projects/Practice/Verstka/GreenHouse/src/sass/style.sass */
+    .main-section__nav-container {
+      margin-bottom: 14px; }
+    /* line 561, ../Projects/Practice/Verstka/GreenHouse/src/sass/style.sass */
+    .main-section__content-container {
+      height: 350px;
+      padding-top: 48px; }
+    /* line 564, ../Projects/Practice/Verstka/GreenHouse/src/sass/style.sass */
+    .main-section__title {
+      font-size: 48px;
+      margin-bottom: 24px; }
+    /* line 567, ../Projects/Practice/Verstka/GreenHouse/src/sass/style.sass */
+    .main-section__text {
+      font-size: 20px;
+      margin-bottom: 45px;
+      line-height: 24px; }
+    /* line 572, ../Projects/Practice/Verstka/GreenHouse/src/sass/style.sass */
+    .main-section .nav-menu {
+      width: 55%; }
+      /* line 574, ../Projects/Practice/Verstka/GreenHouse/src/sass/style.sass */
+      .main-section .nav-menu__list {
+        justify-content: space-between; }
+  /* line 577, ../Projects/Practice/Verstka/GreenHouse/src/sass/style.sass */
+  .input-box {
+    height: 90px; }
+    /* line 579, ../Projects/Practice/Verstka/GreenHouse/src/sass/style.sass */
+    .input-box__button {
+      width: 150px;
+      height: 60px; }
+  /* line 583, ../Projects/Practice/Verstka/GreenHouse/src/sass/style.sass */
+  .select {
+    width: 150px;
+    height: 60px;
+    padding: 5px 15px; }
+    /* line 587, ../Projects/Practice/Verstka/GreenHouse/src/sass/style.sass */
+    .select__text {
+      font-size: 17px; }
+  /* line 590, ../Projects/Practice/Verstka/GreenHouse/src/sass/style.sass */
+  .second-section {
+    padding-top: 14px;
+    padding-bottom: 14px; }
+    /* line 593, ../Projects/Practice/Verstka/GreenHouse/src/sass/style.sass */
+    .second-section__left-block {
+      width: 340px; }
+  /* line 597, ../Projects/Practice/Verstka/GreenHouse/src/sass/style.sass */
+  .left-block__image_1 {
+    width: 300px; }
+  /* line 599, ../Projects/Practice/Verstka/GreenHouse/src/sass/style.sass */
+  .left-block__image_2 {
+    width: 225px;
+    left: 37.5px;
+    top: 330px; }
+  /* line 604, ../Projects/Practice/Verstka/GreenHouse/src/sass/style.sass */
+  .third-section {
+    padding-top: 14px;
+    padding-bottom: 14px; }
+    /* line 607, ../Projects/Practice/Verstka/GreenHouse/src/sass/style.sass */
+    .third-section__title {
+      margin-bottom: 14px; }
+    /* line 609, ../Projects/Practice/Verstka/GreenHouse/src/sass/style.sass */
+    .third-section__right-block {
+      width: 440px;
+      height: 368px;
+      overflow: hidden;
+      margin-right: 14px; }
+  /* line 615, ../Projects/Practice/Verstka/GreenHouse/src/sass/style.sass */
+  .info-card {
+    width: 440px;
+    margin-bottom: 8px;
+    padding-left: 14px;
+    padding-top: 14px; }
+  /* line 621, ../Projects/Practice/Verstka/GreenHouse/src/sass/style.sass */
+  .fourth-section {
+    padding-top: 14px;
+    padding-bottom: 14px; }
+    /* line 624, ../Projects/Practice/Verstka/GreenHouse/src/sass/style.sass */
+    .fourth-section__title {
+      font-size: 38px;
+      line-height: 40px;
+      margin-bottom: 8px; }
+    /* line 628, ../Projects/Practice/Verstka/GreenHouse/src/sass/style.sass */
+    .fourth-section__text {
+      font-size: 18px;
+      line-height: 27px;
+      margin-bottom: 14px; }
+  /* line 633, ../Projects/Practice/Verstka/GreenHouse/src/sass/style.sass */
+  .cards-block {
+    display: none; }
+    /* line 635, ../Projects/Practice/Verstka/GreenHouse/src/sass/style.sass */
+    .cards-block_mobile {
+      display: block; }
+    /* line 637, ../Projects/Practice/Verstka/GreenHouse/src/sass/style.sass */
+    .cards-block__small-cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center; }
+  /* line 642, ../Projects/Practice/Verstka/GreenHouse/src/sass/style.sass */
+  .city-card {
+    position: relative;
+    width: 370px;
+    height: 255px;
+    margin-bottom: 14px;
+    margin-right: 0px;
+    overflow: hidden; }
+    /* line 649, ../Projects/Practice/Verstka/GreenHouse/src/sass/style.sass */
+    .city-card:nth-child(1) {
+      margin-bottom: 14px;
+      margin-right: 0px; }
+    /* line 652, ../Projects/Practice/Verstka/GreenHouse/src/sass/style.sass */
+    .city-card:nth-child(3) {
+      margin-bottom: 14px;
+      margin-right: 0px; }
+  /* line 656, ../Projects/Practice/Verstka/GreenHouse/src/sass/style.sass */
+  .fifth-section {
+    padding-bottom: 14px;
+    padding-top: 14px;
+    margin-bottom: 0px; }
+    /* line 660, ../Projects/Practice/Verstka/GreenHouse/src/sass/style.sass */
+    .fifth-section__right-side {
+      padding-bottom: 0px;
+      padding-top: 0px; }
+    /* line 663, ../Projects/Practice/Verstka/GreenHouse/src/sass/style.sass */
+    .fifth-section__title {
+      font-size: 38px; }
+    /* line 665, ../Projects/Practice/Verstka/GreenHouse/src/sass/style.sass */
+    .fifth-section__text {
+      margin-bottom: 14px; }
+    /* line 667, ../Projects/Practice/Verstka/GreenHouse/src/sass/style.sass */
+    .fifth-section__img {
+      display: none; }
+  /* line 670, ../Projects/Practice/Verstka/GreenHouse/src/sass/style.sass */
+  .sixth-section {
+    padding-top: 14px;
+    padding-bottom: 14px;
+    margin-bottom: 114px; }
+    /* line 674, ../Projects/Practice/Verstka/GreenHouse/src/sass/style.sass */
+    .sixth-section__title {
+      font-size: 38px;
+      margin-bottom: 0px; }
+    /* line 677, ../Projects/Practice/Verstka/GreenHouse/src/sass/style.sass */
+    .sixth-section__text {
+      margin-bottom: 100px; }
+  /* line 680, ../Projects/Practice/Verstka/GreenHouse/src/sass/style.sass */
+  .people-cards {
+    display: flex;
+    justify-content: space-between; }
+  /* line 684, ../Projects/Practice/Verstka/GreenHouse/src/sass/style.sass */
+  .people-card {
+    width: 220px;
+    height: auto;
+    margin-bottom: 36px; }
+    /* line 688, ../Projects/Practice/Verstka/GreenHouse/src/sass/style.sass */
+    .people-card__name {
+      margin-bottom: 14px; }
+    /* line 690, ../Projects/Practice/Verstka/GreenHouse/src/sass/style.sass */
+    .people-card__img {
+      left: 40px; }
+  /* line 693, ../Projects/Practice/Verstka/GreenHouse/src/sass/style.sass */
+  .subscription-block {
+    padding-top: 14px;
+    padding-bottom: 14px; }
+    /* line 696, ../Projects/Practice/Verstka/GreenHouse/src/sass/style.sass */
+    .subscription-block__title {
+      font-size: 38px;
+      line-height: 38px;
+      margin-bottom: 20px; }
+  /* line 701, ../Projects/Practice/Verstka/GreenHouse/src/sass/style.sass */
+  .subscription-form {
+    width: 80%;
+    margin-left: 10%; }
+  /* line 705, ../Projects/Practice/Verstka/GreenHouse/src/sass/style.sass */
+  .footer-section {
+    padding-top: 14px;
+    padding-bottom: 14px; }
+    /* line 708, ../Projects/Practice/Verstka/GreenHouse/src/sass/style.sass */
+    .footer-section__subscription-block {
+      position: absolute;
+      bottom: 320px; }
+  /* line 712, ../Projects/Practice/Verstka/GreenHouse/src/sass/style.sass */
+  .list {
+    display: flex;
+    justify-content: space-between; }
+    /* line 715, ../Projects/Practice/Verstka/GreenHouse/src/sass/style.sass */
+    .list__title {
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 24px;
+      margin-bottom: 12px; }
+    /* line 720, ../Projects/Practice/Verstka/GreenHouse/src/sass/style.sass */
+    .list__text {
+      font-size: 16px;
+      line-height: 27px;
+      margin-bottom: 6px; }
+    /* line 724, ../Projects/Practice/Verstka/GreenHouse/src/sass/style.sass */
+    .list__icons {
+      margin-top: 37px; }
+  /* line 727, ../Projects/Practice/Verstka/GreenHouse/src/sass/style.sass */
+  .icon-text {
+    margin-bottom: 6px; }
+    /* line 729, ../Projects/Practice/Verstka/GreenHouse/src/sass/style.sass */
+    .icon-text__icon {
+      margin-right: 6px; }
+    /* line 731, ../Projects/Practice/Verstka/GreenHouse/src/sass/style.sass */
+    .icon-text__text {
+      font-size: 18px; }
+    /* line 733, ../Projects/Practice/Verstka/GreenHouse/src/sass/style.sass */
+    .icon-text__title {
+      font-size: 18px;
+      line-height: 21px;
+      color: #02012B;
+      margin-bottom: 14px; }
+    /* line 738, ../Projects/Practice/Verstka/GreenHouse/src/sass/style.sass */
+    .icon-text_mb {
+      margin-bottom: -2px; } }
 
 @media (max-width: 767px) {
-  /* line 557, ../Projects/Practice/Verstka/GreenHouse/src/sass/style.sass */
+  /* line 742, ../Projects/Practice/Verstka/GreenHouse/src/sass/style.sass */
   .container {
     width: 540px; } }
 
 @media (max-width: 575px) {
-  /* line 561, ../Projects/Practice/Verstka/GreenHouse/src/sass/style.sass */
+  /* line 746, ../Projects/Practice/Verstka/GreenHouse/src/sass/style.sass */
   .container {
     width: 100%; } }
 
